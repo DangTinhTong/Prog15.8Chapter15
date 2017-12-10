@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		840F61AE1FDCBB3B00E2EB62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F61AD1FDCBB3B00E2EB62 /* main.m */; };
+		840F61B61FDCBB4D00E2EB62 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 840F61B51FDCBB4D00E2EB62 /* AddressCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		840F61AA1FDCBB3B00E2EB62 /* Prog15.8 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Prog15.8; sourceTree = BUILT_PRODUCTS_DIR; };
 		840F61AD1FDCBB3B00E2EB62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840F61B41FDCBB4D00E2EB62 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressCard.h; sourceTree = "<group>"; };
+		840F61B51FDCBB4D00E2EB62 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				840F61AD1FDCBB3B00E2EB62 /* main.m */,
+				840F61B41FDCBB4D00E2EB62 /* AddressCard.h */,
+				840F61B51FDCBB4D00E2EB62 /* AddressCard.m */,
 			);
 			path = Prog15.8;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840F61B61FDCBB4D00E2EB62 /* AddressCard.m in Sources */,
 				840F61AE1FDCBB3B00E2EB62 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
